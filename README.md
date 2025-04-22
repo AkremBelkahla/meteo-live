@@ -1,16 +1,18 @@
 # Météo Live
 
-Une application météo en temps réel construite avec React et Vite.
+A real-time weather application built with React and Vite.
 
-## Fonctionnalités
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)]()
 
-- Recherche de villes avec autocomplétion
-- Affichage des conditions météorologiques actuelles
-- Interface responsive et moderne
-- Gestion des erreurs et états de chargement
-- Mise en cache des requêtes avec React Query
+## Features
 
-## Technologies Utilisées
+- City search with autocomplete
+- Display of current weather conditions
+- Responsive and modern interface
+- Error handling and loading states
+- Request caching with React Query
+
+## Technologies Used
 
 - React 18+
 - Vite
@@ -21,21 +23,21 @@ Une application météo en temps réel construite avec React et Vite.
 
 ## Installation
 
-1. Clonez le repository
-2. Installez les dépendances :
+1. Clone the repository
+2. Install dependencies:
    ```bash
    npm install
    ```
-3. Créez un compte sur [WeatherAPI.com](https://www.weatherapi.com)
-4. Obtenez votre clé API
-5. Créez un fichier `.env` à la racine du projet et ajoutez votre clé API :
+3. Create an account on [WeatherAPI.com](https://www.weatherapi.com)
+4. Get your API key
+5. Create a `.env` file at the root of the project and add your API key:
    ```
-   VITE_WEATHER_API_KEY=votre_clé_api
+   VITE_WEATHER_API_KEY=your_api_key
    ```
 
-## Développement
+## Development
 
-Pour lancer le serveur de développement :
+To start the development server:
 
 ```bash
 npm run dev
@@ -43,38 +45,38 @@ npm run dev
 
 ## Production
 
-Pour construire l'application pour la production :
+To build the application for production:
 
 ```bash
 npm run build
 ```
 
-## Structure du Projet
+## Project Structure
 
 ```
 src/
-├── components/      # Composants React
+├── components/      # React components
 ├── hooks/          # Custom hooks
-├── utils/          # Utilitaires et configuration API
-└── App.tsx         # Composant principal
+├── utils/          # Utilities and API configuration
+└── App.tsx         # Main component
 ```
 
 ## API Documentation
 
-L'application utilise l'API WeatherAPI.com avec les endpoints suivants :
+The application uses the WeatherAPI.com API with the following endpoints:
 
-- `/current.json` : Données météo actuelles
-- `/search.json` : Recherche de villes
+- `/current.json` : Current weather data
+- `/search.json` : City search
 
-Pour plus d'informations, consultez la [documentation officielle de WeatherAPI](https://www.weatherapi.com/docs/).
+For more information, see the [official WeatherAPI documentation](https://www.weatherapi.com/docs/).
 
-## Guide d'Utilisation
+## User Guide
 
-1. Lancez l'application
-2. Utilisez la barre de recherche pour trouver une ville
-3. Sélectionnez une ville dans la liste d'autocomplétion
-4. Les données météo s'afficheront automatiquement
+1. Launch the application
+2. Use the search bar to find a city
+3. Select a city from the autocomplete list
+4. Weather data will be displayed automatically
 
 ## Contribution
 
-Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou une pull request.
+Contributions are welcome! Feel free to open an issue or a pull request.
